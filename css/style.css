@@ -1,0 +1,316 @@
+/* Header */
+.main-logo{
+    background-image: url(../images/logo.jpg);
+    width: 1440px;
+    height: 754px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.div-container{ background-color: rgb(211, 187, 187);
+    width: 366px;
+    height: 20px;
+    top: 40px;
+    left: 201px;
+    position: absolute;
+    z-index: 2;
+}
+.ul-item{
+    display: flex;
+    justify-content: space-between;
+}
+.li-items{
+    font-weight: 700;
+    font-size: 14px;
+ /* araferi jer*/
+
+}
+.login-button{
+    color: white;
+    background-color: #f84646;
+    width: 78px;
+    height: 40px;
+    top: 35px;
+    left: 1227px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-box{
+    width: 665px;
+    height: 283px;
+    top: 200px;
+    left: 122px;
+    position: absolute;
+    z-index: 2;
+}
+.tx-h{
+    width: 665px;
+    height: 82px;
+    font-weight: 800;
+    font-size: 64px;
+
+}
+.tx-p{
+    width: 650px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+.section1{ background-color: yellow;
+    width: 1440px;
+    margin-top: 120px;
+}
+.text-box2{ background-color: aquamarine;
+    width: 1153px;
+    margin: 0 auto;
+    top: 874px;
+    left: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txtt-h{
+    width: 428px;
+    height: 56px;
+    top: 874px;
+    left: 506px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49.18px;
+    text-align: center;
+    
+    margin-bottom: 30px;
+}
+.txtt-p{
+    width: 994px;
+    height: 109px;
+    top: 960px;
+    left: 223px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39.5px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 99px;
+}
+.infos{ background-color: bisque;
+    width: 1153px;
+    height: 508px;
+    margin: 0 auto;
+    top: 1168px;
+    left: 135px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.child-div{ background-color: rgb(139, 150, 146);
+    width: 298px;
+    height: 215px; /* simagle da sigane araakvs figmashi am elements*/
+}
+.child-div img{
+    margin-left: 111px;
+}
+.child-div h3{
+    width: 284px;
+    height: 31px;
+    top: 87px;
+    left: 7px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49.18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.child-div p{
+    width: 298px;
+    height: 84px;
+    top: 128px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+/* SECTION-2 */
+.big-box{ background-color: blanchedalmond;
+    width: 1197px;
+    height: 1080px;
+    margin: 0 auto;
+    top: 1850px;
+    left: 139px;
+}
+.top-box{ background-color: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 85px;    
+    margin-top: 174px;
+}
+.left-box{ background-color: rgb(143, 124, 124);
+    width: 608px;
+    height: 480px;
+    border-radius: 8px;
+
+}
+.left-box h3{
+    width: 608px;
+    height: 76px;
+    top: 1850px;
+    left: 139px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    margin-bottom: 116px;
+
+}
+.left-box p{
+    width: 523px;
+    height: 160px;
+    top: 2042px;
+    left: 139px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 80px;
+
+}
+.add-button {
+    color: white;
+    background-color: #F84646;
+    width: 160px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+/* meore*/
+.bottom-box{  background-color: #ee9292;
+    display: flex;
+    flex-direction: row;
+    gap: 145px;    
+    margin-top: 115px;
+}
+.right-box2{
+    width: 548px;
+    height: 480px;
+    border-radius: 8px;
+}
+.right-box2 h3{
+    width: 608px;
+    height: 76px;
+    top: 1850px;
+    left: 139px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    margin-bottom: 116px;
+
+}
+.right-box2 p{
+    width: 523px;
+    height: 160px;
+    top: 2042px;
+    left: 139px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 80px;
+
+}
+/* FOOTER*/
+.footer{ background-color:#F8464A;
+    width: 1440px;
+    height: 536px;
+}
+.footer-div{ background-color: rgb(11, 19, 19);
+    width: 1034px;
+    padding-top: 80px;
+    margin-left: 104px;
+    display: flex;
+}
+.little-box1{
+    width: 182px;
+    height: 304px;
+    margin-right: 100px;
+}
+.little-box1 h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.little-box1 p{
+    color: #E6E6E6;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.little-box2{
+    width: 249px;
+    height: 248px;
+    margin-right: 100px;
+}
+.little-box2 h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.little-box2 p{
+    color: #E6E6E6;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.little-box3{
+    width: 152px;
+    height: 192px;
+    margin-right: 100px;
+}
+.little-box3 h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.little-box3 p{
+    color: #E6E6E6;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.little-box4{
+    width: 151px;
+    height: 136px;
+}
+.little-box4 h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.little-box4 p{
+    color: #E6E6E6;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.copyright{
+    color: #E6E6E6;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 104px;
+    margin-top: 50px;
+}
