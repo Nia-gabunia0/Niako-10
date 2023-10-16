@@ -8,7 +8,7 @@
     position: relative;
     z-index: 1;
 }
-.div-container{ background-color: rgb(211, 187, 187);
+.div-container{
     width: 366px;
     height: 20px;
     top: 40px;
@@ -23,8 +23,7 @@
 .li-items{
     font-weight: 700;
     font-size: 14px;
- /* araferi jer*/
-
+    font-family: 'Manrope', sans-serif;
 }
 .login-button{
     color: white;
@@ -41,6 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Manrope', sans-serif;
 }
 .text-box{
     width: 665px;
@@ -55,7 +55,7 @@
     height: 82px;
     font-weight: 800;
     font-size: 64px;
-
+    font-family: 'Manrope', sans-serif;
 }
 .tx-p{
     width: 650px;
@@ -64,12 +64,14 @@
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 0.2px;
+    font-family: 'Manrope', sans-serif;
 }
-.section1{ background-color: yellow;
+/* SECTION-1 */
+.section1{
     width: 1440px;
     margin-top: 120px;
 }
-.text-box2{ background-color: aquamarine;
+.text-box2{
     width: 1153px;
     margin: 0 auto;
     top: 874px;
@@ -87,7 +89,7 @@
     font-size: 36px;
     line-height: 49.18px;
     text-align: center;
-    
+    font-family: 'Manrope', sans-serif;
     margin-bottom: 30px;
 }
 .txtt-p{
@@ -101,8 +103,9 @@
     letter-spacing: 0.2px;
     text-align: center;
     margin-bottom: 99px;
+    font-family: 'Manrope', sans-serif;
 }
-.infos{ background-color: bisque;
+.infos{
     width: 1153px;
     height: 508px;
     margin: 0 auto;
@@ -113,7 +116,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.child-div{ background-color: rgb(139, 150, 146);
+.child-div{
     width: 298px;
     height: 215px; /* simagle da sigane araakvs figmashi am elements*/
 }
@@ -131,6 +134,7 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
 }
 .child-div p{
     width: 298px;
@@ -141,26 +145,27 @@
     line-height: 28px;
     letter-spacing: 0.2px;
     text-align: center;
+    font-family: 'Manrope', sans-serif;
 }
 /* SECTION-2 */
-.big-box{ background-color: blanchedalmond;
+/* FIRST-BOX */
+.big-box{
     width: 1197px;
     height: 1080px;
     margin: 0 auto;
     top: 1850px;
     left: 139px;
 }
-.top-box{ background-color: blue;
+.top-box{
     display: flex;
     flex-direction: row;
     gap: 85px;    
     margin-top: 174px;
 }
-.left-box{ background-color: rgb(143, 124, 124);
+.left-box{
     width: 608px;
     height: 480px;
     border-radius: 8px;
-
 }
 .left-box h3{
     width: 608px;
@@ -171,7 +176,7 @@
     font-size: 64px;
     line-height: 76px;
     margin-bottom: 116px;
-
+    font-family: 'Manrope', sans-serif;
 }
 .left-box p{
     width: 523px;
@@ -182,7 +187,7 @@
     font-size: 16px;
     line-height: 32px;
     margin-bottom: 80px;
-
+    font-family: 'Manrope', sans-serif;
 }
 .add-button {
     color: white;
@@ -193,10 +198,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
- 
+    font-family: 'Manrope', sans-serif;
 }
-/* meore*/
-.bottom-box{  background-color: #ee9292;
+/* SECOND-BOX */
+.bottom-box{
     display: flex;
     flex-direction: row;
     gap: 145px;    
@@ -216,7 +221,7 @@
     font-size: 64px;
     line-height: 76px;
     margin-bottom: 116px;
-
+    font-family: 'Manrope', sans-serif;
 }
 .right-box2 p{
     width: 523px;
@@ -227,14 +232,16 @@
     font-size: 16px;
     line-height: 32px;
     margin-bottom: 80px;
-
+    font-family: 'Manrope', sans-serif;
 }
 /* FOOTER*/
-.footer{ background-color:#F8464A;
+.footer{
+    background-color: #F8464A;
     width: 1440px;
     height: 536px;
+    margin-top: 87px;
 }
-.footer-div{ background-color: rgb(11, 19, 19);
+.footer-div{
     width: 1034px;
     padding-top: 80px;
     margin-left: 104px;
@@ -250,12 +257,14 @@
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .little-box1 p{
     color: #E6E6E6;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .little-box2{
     width: 249px;
@@ -267,12 +276,14 @@
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .little-box2 p{
     color: #E6E6E6;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .little-box3{
     width: 152px;
@@ -284,12 +295,14 @@
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .little-box3 p{
     color: #E6E6E6;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .little-box4{
     width: 151px;
@@ -300,12 +313,14 @@
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .little-box4 p{
     color: #E6E6E6;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .copyright{
     color: #E6E6E6;
@@ -313,4 +328,5 @@
     font-size: 16px;
     margin-left: 104px;
     margin-top: 50px;
+    font-family: 'Inter', sans-serif;
 }
