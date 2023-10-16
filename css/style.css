@@ -25,6 +25,9 @@
     font-size: 14px;
     font-family: 'Manrope', sans-serif;
 }
+.li-items:hover{
+    color:  rgb(48, 167, 167);;
+}
 .login-button{
     color: white;
     background-color: #f84646;
@@ -41,6 +44,9 @@
     justify-content: center;
     align-items: center;
     font-family: 'Manrope', sans-serif;
+}
+.login-button:hover{
+    background-color: rgb(48, 167, 167);
 }
 .text-box{
     width: 665px;
@@ -199,6 +205,9 @@
     justify-content: center;
     align-items: center;
     font-family: 'Manrope', sans-serif;
+}
+.add-button:hover {
+    background-color:  rgb(48, 167, 167);;
 }
 /* SECOND-BOX */
 .bottom-box{
