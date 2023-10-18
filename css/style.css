@@ -243,6 +243,71 @@
     margin-bottom: 80px;
     font-family: 'Manrope', sans-serif;
 }
+/*FORM STYLES*/
+.form-box{
+    width: 1220px;
+    height: 649px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.form-texts{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form-texts h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
+}
+.form-texts h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.4px;
+    font-family: 'Manrope', sans-serif;
+}
+.input-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 28px;
+    column-gap: 38px;
+}
+.input-info  [type="text"],[type="email"],[type="tel"]:focus {
+    outline: none;
+}
+.input-info [type="text"],[type="email"],[type="tel"] {
+    width: 591px;
+    height: 65px;
+    border: none; 
+    border-bottom: 2px solid red;
+}
+.textarea{
+    width: 1220px;
+    height: 222px;
+    margin-top: 28px;
+    border: none;
+    border-bottom: 2px solid red;
+}
+.textarea:focus {
+    outline: none;
+}
+.form-button{
+    background-color: #F84646;
+    width: 184px;
+    height: 65px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 46px;
+    margin-left: 518px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.form-button:hover {
+    background-color:#6B77E5;
+}
 /* FOOTER*/
 .footer{
     background-color: #F8464A;
