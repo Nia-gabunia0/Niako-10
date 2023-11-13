@@ -1,22 +1,30 @@
 /* Header */
 .main-logo{
     background-image: url(../images/logo.jpg);
-    width: 1440px;
+    width: 100%;
     height: 754px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
     z-index: 1;
 }
 .div-container{
-    width: 366px;
-    height: 20px;
+    display: flex;
+    width: 80%;
+    height: 70px;
     top: 40px;
     left: 201px;
     position: absolute;
     z-index: 2;
 }
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .ul-item{
+    width: 39.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -31,41 +39,45 @@
 .login-button{
     color: white;
     background-color: #f84646;
-    width: 78px;
+    width: 4.375rem;
     height: 40px;
-    top: 35px;
-    left: 1227px;
+    margin: auto;
+    padding: 13.5px;
     font-weight: 700;
     font-size: 14px;
     border-radius: 5px;
-    position: absolute;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Manrope', sans-serif;
 }
 .login-button:hover{
     background-color: rgb(48, 167, 167);
 }
+.burger-bar{
+    display: none;
+    color: black;
+    width: 50px;
+    height: 50px;
+    padding: 17px;
+    margin:11px auto;
+    border-radius: 50%;
+}
 .text-box{
-    width: 665px;
-    height: 283px;
-    top: 200px;
-    left: 122px;
+    max-width: 41.563rem;
+    min-height: 283px;
+    top: 18.75rem;
+    left: 200px;
     position: absolute;
     z-index: 2;
 }
 .tx-h{
-    width: 665px;
-    height: 82px;
+    max-width: 41.563rem;
+    min-height: 82px;
     font-weight: 800;
     font-size: 64px;
     font-family: 'Manrope', sans-serif;
 }
 .tx-p{
-    width: 650px;
-    height: 99px;
+    max-width: 40.625rem;
+    min-height: 99px;
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
@@ -74,23 +86,20 @@
 }
 /* SECTION-1 */
 .section1{
-    width: 1440px;
-    margin-top: 120px;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 .text-box2{
-    width: 1153px;
+    max-width: 62.5rem;
     margin: 0 auto;
-    top: 874px;
-    left: 135px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .txtt-h{
-    width: 428px;
-    height: 56px;
-    top: 874px;
-    left: 506px;
+    max-width: 26.75rem;
+    min-height: 56px;
     font-weight: 800;
     font-size: 36px;
     line-height: 49.18px;
@@ -99,10 +108,9 @@
     margin-bottom: 30px;
 }
 .txtt-p{
-    width: 994px;
-    height: 109px;
-    top: 960px;
-    left: 223px;
+    max-width: 62.125rem;
+    min-height: 109px;
+
     font-weight: 400;
     font-size: 24px;
     line-height: 39.5px;
@@ -112,19 +120,17 @@
     font-family: 'Manrope', sans-serif;
 }
 .infos{
-    width: 1153px;
-    height: 508px;
+    max-width: 72.063rem;
+    min-height: 508px;
     margin: 0 auto;
-    top: 1168px;
-    left: 135px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .child-div{
-    width: 298px;
-    height: 215px; /* simagle da sigane araakvs figmashi am elements*/
+    width: 18.625rem;
+    height: 215px;
 }
 .child-div img{
     margin-left: 111px;
@@ -132,20 +138,17 @@
 .child-div h3{
     width: 284px;
     height: 31px;
-    top: 87px;
-    left: 7px;
     font-weight: 800;
     font-size: 36px;
     line-height: 49.18px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: 'Manrope', sans-serif;
 }
 .child-div p{
     width: 298px;
     height: 84px;
-    top: 128px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -156,28 +159,27 @@
 /* SECTION-2 */
 /* FIRST-BOX */
 .big-box{
-    width: 1197px;
-    height: 1080px;
+    max-width: 74.813rem;
+    min-height: 1080px;
     margin: 0 auto;
-    top: 1850px;
-    left: 139px;
+}
+.big-box img{
+    width: 100%;
 }
 .top-box{
     display: flex;
     flex-direction: row;
-    gap: 85px;    
-    margin-top: 174px;
+    gap: 80px;    
+    margin-top: 130px;
 }
 .left-box{
-    width: 608px;
-    height: 480px;
+    max-width: 38rem;
+    min-height: 480px;
     border-radius: 8px;
 }
 .left-box h3{
-    width: 608px;
+    max-width: 38rem;
     height: 76px;
-    top: 1850px;
-    left: 139px;
     font-weight: 700;
     font-size: 64px;
     line-height: 76px;
@@ -185,11 +187,9 @@
     font-family: 'Manrope', sans-serif;
 }
 .left-box p{
-    width: 523px;
-    height: 160px;
-    top: 2042px;
-    left: 139px;
-    font-weight: 400px;
+    max-width: 32.688rem;
+    min-height: 160px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     margin-bottom: 80px;
@@ -213,19 +213,19 @@
 .bottom-box{
     display: flex;
     flex-direction: row;
-    gap: 145px;    
-    margin-top: 115px;
+    gap: 80px;    
+    margin-top: 115px; 
+    text-align: -webkit-right;
 }
 .right-box2{
-    width: 548px;
-    height: 480px;
+    max-width: 38rem;
+    min-height: 480px;
+
     border-radius: 8px;
 }
 .right-box2 h3{
-    width: 608px;
+    max-width: 38rem;
     height: 76px;
-    top: 1850px;
-    left: 139px;
     font-weight: 700;
     font-size: 64px;
     line-height: 76px;
@@ -233,22 +233,21 @@
     font-family: 'Manrope', sans-serif;
 }
 .right-box2 p{
-    width: 523px;
-    height: 160px;
-    top: 2042px;
-    left: 139px;
-    font-weight: 400px;
+    max-width: 32.688rem;
+    min-height: 160px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 32px;
+    text-align: justify;
     margin-bottom: 80px;
     font-family: 'Manrope', sans-serif;
 }
 /*FORM STYLES*/
 .form-box{
-    width: 1220px;
-    height: 649px;
+    max-width: 76.25rem;
+    min-height: 780px;
     margin: 0 auto;
-    margin-top: 100px;
+    padding-top: 80px;
 }
 .form-texts{
     text-align: center;
@@ -278,13 +277,13 @@
     outline: none;
 }
 .input-info [type="text"],[type="email"],[type="tel"] {
-    width: 591px;
+    width: 47%;
     height: 65px;
     border: none; 
     border-bottom: 2px solid red;
 }
 .textarea{
-    width: 1220px;
+    width: 100%;
     height: 222px;
     margin-top: 28px;
     border: none;
@@ -301,7 +300,7 @@
     font-size: 18px;
     border: none;
     margin-top: 46px;
-    margin-left: 518px;
+    margin-left: 42%;
     font-family: 'Inter', sans-serif;
     color: white;
 }
@@ -311,15 +310,16 @@
 /* FOOTER*/
 .footer{
     background-color: #F8464A;
-    width: 1440px;
-    height: 536px;
-    margin-top: 87px;
+    /* width: 1440px; */
+    min-height: 536px;
+    margin: 20px auto;
 }
 .footer-div{
-    width: 1034px;
-    padding-top: 80px;
-    margin-left: 104px;
+    /* width: 1034px; */
     display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+
 }
 .little-box1{
     width: 182px;
@@ -400,8 +400,8 @@
     color: #E6E6E6;
     font-weight: 400;
     font-size: 16px;
-    margin-left: 104px;
+    margin-left: 78px;
     margin-top: 50px;
+    padding-bottom: 20px;
     font-family: 'Inter', sans-serif;
-
 }
