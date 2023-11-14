@@ -31,7 +31,6 @@
     }
     .navigation.newNavigation{
         display: block;
-        background-color: rgb(117, 84, 45);
     }
     .navigation{
         display: none;
@@ -42,6 +41,17 @@
     .burger-bar{
         display: block;
         margin: 0;
+    }
+    .ul-item{
+        max-width: 150px;
+        background-color: rgb(236, 75, 75);
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: 'Manrope', sans-serif;
+        padding: 10px;
     }
 }
 @media (max-width:634px){
