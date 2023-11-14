@@ -31,18 +31,18 @@
     }
     .div-container{
         justify-content: space-between;
-    }
-    .navigation.newNavigation{
+    }    
+    .burger-bar{
         display: block;
+        margin: 0;
     }
     .navigation{
         display: none;
     }
-    .login-button{
-        margin: 0;
-    }
-    .burger-bar{
+    .navigation.newNavigation{
         display: block;
+    }
+    .login-button{
         margin: 0;
     }
     .ul-item{
