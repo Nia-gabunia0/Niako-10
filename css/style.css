@@ -51,9 +51,14 @@
     font-weight: 700;
     font-size: 14px;
     font-family: 'Manrope', sans-serif;
+    transition: 1s;
 }
 .li-items:hover{
-    color:  rgb(48, 167, 167);;
+    background-color:  rgba(239, 14, 14, 0.165);
+    transition: 1s;
+}
+.li-items a{
+    color: black;
 }
 .login-button{
     color: white;
@@ -69,6 +74,9 @@
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+}
+.login-button a {
+    color: white;
 }
 .login-button:hover{
     background-color: rgb(48, 167, 167);
@@ -260,6 +268,9 @@
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+}
+.add-button a {
+    color: white;
 }
 .add-button:hover {
     background-color:  rgb(48, 167, 167);

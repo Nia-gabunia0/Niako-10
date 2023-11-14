@@ -26,6 +26,9 @@
     }
 }
 @media (max-width:831px){
+    .main-logo{
+        background-position: left;
+    }
     .div-container{
         justify-content: space-between;
     }
